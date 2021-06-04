@@ -1,0 +1,72 @@
+/* classes */
+.App {
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height:100%;
+  width: 100%;
+  
+    
+}
+
+.header-container {
+  width: 100%;
+  height:5%;
+  text-align: left;
+  padding: 1%;
+  color: darkslategrey;
+  background-color: rgb(201, 197, 197);
+  font-family: SourceSansPro;
+  font-size: 20pt;
+  
+}
+
+.content-container{
+  width: 100%;
+  height:90%;
+  padding: 1%;
+  color: darkslategrey;
+  font-family: SourceSansPro;
+  font-size: 20pt;
+
+}
+
+.footer-container{
+  width: 100%;
+  height:5%;
+  text-align: left;
+  padding: 1%;
+  color: darkslategrey;
+  background-color: rgb(201, 197, 197);
+  font-family: SourceCodePro;
+  font-size: 20pt;
+}
+
+/* id's */
+#inputs{
+  text-align: center;
+  height: auto;
+  margin-bottom: 10%;
+}
+#chart{
+  margin-right: 2%;
+  
+}
+
+/* fonts */
+
+@font-face {
+  font-family: SourceSansPro;
+  src: url("../src/fonts/SourceSansPro-Regular.ttf") format('truetype'),;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SourceCodePro;
+  src: url("../src/fonts/SourceCodePro-Regular.ttf") format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
